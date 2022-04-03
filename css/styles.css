@@ -136,11 +136,6 @@ a {
    color: #ffffff;
 }
 
-.adress-item [href*="https"] {
-   color: #ffffff;
-
-} 
-
 .adress-item{
 font-style: normal;
 font-size: 14px;
@@ -148,8 +143,9 @@ line-height: 1.71;
 letter-spacing: var(--l-s);
 }
 
-
-
 .adress-item a{
    color: rgba(255, 255, 255, 0.6);
+}
+.link-text{
+   color: #ffffff;
 }
