@@ -2,7 +2,7 @@
    --brend-color: #757575;
    --title-color: #212121;
    --bgc: #2f303a;
-   --l-s:0.03em;
+   --l-s: 0.03em;
 }
 
 body {
@@ -120,7 +120,6 @@ a {
    letter-spacing: var(--l-s);
 }
 
-
 .card-text {
    font-size: 16px;
    line-height: 1.18;
@@ -136,49 +135,47 @@ a {
    color: #ffffff;
 }
 
-.adress-item{
-font-style: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: var(--l-s);
+.adress-item {
+   font-style: normal;
+   font-size: 14px;
+   line-height: 1.71;
+   letter-spacing: var(--l-s);
 }
 
-.adress-item a{
+.adress-item a {
    color: rgba(255, 255, 255, 0.6);
 }
-.link-text{
+.link-text {
    color: #ffffff;
 }
 /* ------------------ portfolio------------------- */
-.btn-radio{
-color: var(--title-color);
+.btn-radio button {
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.62;
 
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-/* identical to box height, or 162% */
-
-letter-spacing: var(--l-s);
+   text-align: center;
+   letter-spacing: var(--l-s);
 }
 
-.image-card a{
+.image-card a {
    color: var(--brend-color);
    font-size: 16px;
    line-height: 1.88;
-   letter-spacing: var(--l-s)
+   letter-spacing: var(--l-s);
 }
 
 .title-card {
-color: var(--title-color);
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
+   color: var(--title-color);
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 2;
+   letter-spacing: 0.06em;
 }
 
 button:hover,
-button:focus{
+button:focus {
    background-color: #2196f3;
    color: #ffffff;
-
 }
