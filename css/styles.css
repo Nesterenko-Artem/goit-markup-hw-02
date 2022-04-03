@@ -149,3 +149,29 @@ letter-spacing: var(--l-s);
 .link-text{
    color: #ffffff;
 }
+/* ------------------ portfolio------------------- */
+.btn-radio{
+color: var(--title-color);
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+/* identical to box height, or 162% */
+
+letter-spacing: var(--l-s);
+}
+
+.image-card a{
+   color: var(--brend-color);
+   font-size: 16px;
+   line-height: 1.88;
+   letter-spacing: var(--l-s)
+}
+
+.title-card {
+color: var(--title-color);
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
