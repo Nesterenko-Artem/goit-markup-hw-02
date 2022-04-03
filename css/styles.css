@@ -73,6 +73,9 @@ a {
    line-height: 1.9;
    letter-spacing: 0.06em;
 }
+.btn:hover{
+   cursor: pointer;
+}
 
 /* --------------section------------ */
 
@@ -178,4 +181,5 @@ button:hover,
 button:focus {
    background-color: #2196f3;
    color: #ffffff;
+   cursor: pointer;
 }
